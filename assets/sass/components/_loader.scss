@@ -1,0 +1,26 @@
+.loader {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  height: 4px;
+  animation-name: progress;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    background: #ee4bf7;
+  }
+  50% {
+    width: 50%;
+    background: #4eabe2;
+  }
+  100% {
+    width: 100%;
+    background: #f6eb00;
+  }
+}
