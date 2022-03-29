@@ -9,7 +9,7 @@ This template includes a set of our favorite dev tools scaffolded into a Next.js
 - Husky pre-commit hooks for formatting
 - Pre folder structure
 
-To get started with this template, 
+To get started with this template,
 
 Simply `git clone` instead:
 

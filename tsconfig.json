@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "noUnusedLocals": true,
     "paths": {
       "@components/*": ["./components/*"],
       "@module/*": ["./components/module/*"]

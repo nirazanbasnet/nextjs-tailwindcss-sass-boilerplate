@@ -1,4 +1,4 @@
-import { Button, PrimaryButton } from '@components/ui/button';
+import { PrimaryButton } from '@components/ui/button';
 import React, { FunctionComponent } from 'react';
 
 const Header: FunctionComponent = () => {
