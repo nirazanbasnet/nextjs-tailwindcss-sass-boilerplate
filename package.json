@@ -11,7 +11,7 @@
     "check-format": "prettier --check .",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
     "format": "prettier --write .",
-    "test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build",
+    "test-all": "yarn check-format && yarn check-lint && yarn check-types && yarn build",
     "prepare": "husky install"
   },
   "dependencies": {

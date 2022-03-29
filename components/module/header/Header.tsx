@@ -1,4 +1,4 @@
-import { Button, PrimaryButton } from '@components/ui/button';
+import { PrimaryButton } from '@components/ui/button';
 import React, { FunctionComponent } from 'react';
 
 const Header: FunctionComponent = () => {
@@ -12,6 +12,7 @@ const Header: FunctionComponent = () => {
               <ul className="flex items-center space-x-6">
                 <li>Home</li>
                 <li>About</li>
+                <li>Contact</li>
                 <li>
                   <PrimaryButton>Sign Up</PrimaryButton>
                 </li>
